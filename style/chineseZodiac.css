@@ -1,0 +1,133 @@
+html {
+	height: 100%;
+}
+
+/*base red colour: E72B11*/
+body {
+	background: #E72B11;
+	background: linear-gradient(#ef412a, #E72B11, #AD200C);
+	height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/*gold colour: FFD700*/
+hr{ border-color: #FFD700; }
+
+p{
+	font-family: Arial, sans-serif;
+}
+
+h3{
+	font-family: Arial, sans-serif;
+	color: #FFD700;
+}
+
+.core h1 {
+	margin: auto;
+  display: block;
+	text-align: center;
+	padding: 0.5em;
+	font-family: Arial, sans-serif;
+	color: #FFD700;
+}
+
+.footer{
+	text-align: center;
+	padding: 1em;
+	border-top-color: #FFD700;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+.contactForm {
+	margin: 0 auto;
+	display: block;
+	padding-top: 4em;
+}
+
+.contactForm form{
+	margin: 0 auto;
+	width:27%;
+}
+
+.info {
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 4em;
+}
+
+.info p {
+	width:80%;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.info h3 {
+	padding: 1em;
+	padding-bottom: 0em;
+}
+
+.imageContainer {
+	margin: 0 auto;
+	width:125px;
+	height: 125px;
+}
+
+.banner {
+	margin: 0 auto;
+	width: 400px;
+	height: 180px;
+}
+
+.buttonHolder{
+	display: block;
+	text-align: center;
+}
+
+.buttonHolder a {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+/* Original source for circle style here: http://dabblet.com/gist/3864650 Created by Ana on Stackoverflow */
+
+.circle-box {
+	position: relative;
+	width: 38em;
+	height: 45em;
+	padding: 5.6em; /* half the width of an img */
+	padding-top: 0em;
+	margin: 1.75em auto 0;
+}
+.circle-box a {
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 50%; left: 50%;
+	width: 8em; height: 8em;
+	margin: -4em; /* half the width of circle-box a */
+}
+
+.centered-text {
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -450%);
+}
+
+.circle-box img { display: block; width: 100%; }
+
+.deg0 { transform: translate(19em); } /* 19em = half the width of the wrapper (circle-box) */
+.deg30 { transform: rotate(30deg) translate(19em) rotate(-30deg); }
+.deg60 { transform: rotate(60deg) translate(19em) rotate(-60deg); }
+.deg90 { transform: rotate(90deg) translate(19em) rotate(-90deg); }
+.deg120 { transform: rotate(120deg) translate(19em) rotate(-120deg); }
+.deg150 { transform: rotate(150deg) translate(19em) rotate(-150deg); }
+.deg180 { transform: translate(-19em); }
+.deg210 { transform: rotate(210deg) translate(19em) rotate(-210deg); }
+.deg240 { transform: rotate(240deg) translate(19em) rotate(-240deg); }
+.deg270 { transform: rotate(270deg) translate(19em) rotate(-270deg); }
+.deg300 { transform: rotate(300deg) translate(19em) rotate(-300deg); }
+.deg330 { transform: rotate(330deg) translate(19em) rotate(-330deg); }
