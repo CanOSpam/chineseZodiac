@@ -192,5 +192,8 @@ and (orientation : landscape) {
 	.contactForm form{
 		width:100%;
 	}
+	header{
+		padding-top: 1em;
+	}
 
 }
