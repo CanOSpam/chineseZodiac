@@ -52,19 +52,19 @@ footer{
 	width:27%;
 }
 
-.info {
+article {
 	width: 80%;
 	margin: 0 auto;
 	padding-bottom: 4em;
 }
 
-.info p {
+article p {
 	width:80%;
 	padding-left: 2em;
 	padding-right: 2em;
 }
 
-.info h3 {
+article h3 {
 	padding: 1em;
 	padding-bottom: 0em;
 }
@@ -81,12 +81,12 @@ footer{
 	height: 180px;
 }
 
-.buttonHolder{
+nav{
 	display: block;
 	text-align: center;
 }
 
-.buttonHolder a {
+nav a {
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 }
@@ -134,29 +134,28 @@ footer{
 .deg330 { transform: rotate(330deg) translate(19em) rotate(-330deg); }
 
 @media screen and (max-width: 700px)
-and (orientation: landscape){
+and (orientation : landscape) {
 	.circle-box {
 		position: relative;
-		width: 50%;
-		height: 50%;
-		padding: 0em; /* half the width of an img */
-		padding-top: 0em;
-		margin: 0em auto 0;
+		width: 90%;
+		height: 90%;
+		padding: 2em;
 	}
 
 	.circle-box a {
 		display: inline;
 		position: relative;
-		top: 50%; left: 0;
-		width: 4em; height: 4em;
-		margin: 1em; /* half the width of circle-box a */
+		left:10%;
+		margin: auto; /* half the width of circle-box a */
 	}
 
 	.circle-box img {
-		display: block;
-		width: 60%;
-		margin: auto;
+		display: inline;
+		width: 35%;
+		margin: 1em;
 	}
+
+
 }
 @media screen and (max-width: 480px) {
 	.circle-box {
