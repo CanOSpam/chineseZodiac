@@ -33,7 +33,7 @@ h3{
 	color: #FFD700;
 }
 
-.footer{
+footer{
 	text-align: center;
 	padding: 1em;
 	border-top-color: #FFD700;
@@ -161,7 +161,7 @@ h3{
 	.buttonHolder {
 		padding: 1em;
 	}
-	
+
 	.contactForm form{
 		width:100%;
 	}
