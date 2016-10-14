@@ -21,11 +21,13 @@ Completed:
 - Banner image
 - Button images
 - Animal images
+- HTML 5 Validated
+- HTML 5 element tags added
 
 Not Completed:
-- form submit to website
-- validate css
+- nothing
 
 Challenges:
 - Organize images in circle
 - Banner image
+
