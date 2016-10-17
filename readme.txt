@@ -28,6 +28,7 @@ Assign2
 - Added mobile site
 - Portrait and Landscape modes
 - HTML 5 Valid
+- fluent transition between desktop > landscape > mobile
 
 Not Completed:
 - nothing
