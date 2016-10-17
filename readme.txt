@@ -22,12 +22,12 @@ Assign1
 - Banner image
 - Button images
 - Animal images
-- HTML 5 Valid
 
 Assign2
 - Changes elements to HTML5 standard
 - Added mobile site
-- Portrait and Landscape
+- Portrait and Landscape modes
+- HTML 5 Valid
 
 Not Completed:
 - nothing

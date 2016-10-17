@@ -133,9 +133,8 @@ nav a {
 .deg300 { transform: rotate(300deg) translate(19em) rotate(-300deg); }
 .deg330 { transform: rotate(330deg) translate(19em) rotate(-330deg); }
 
-@media screen and (max-width: 800px)
-and (orientation : landscape)
-and (min-width: 480px ) {
+/* Landscape */
+@media only screen and (max-width: 800px) {
 	.circle-box {
 		position: relative;
 		width: 90%;
@@ -155,10 +154,10 @@ and (min-width: 480px ) {
 		width: 35%;
 		margin: 1em;
 	}
-
-
 }
-@media screen and (max-width: 480px) {
+
+/*Portrait*/
+@media only screen and (max-width: 480px) {
 	.circle-box {
 		position: relative;
 		width: 90%;
