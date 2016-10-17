@@ -3,6 +3,7 @@ Chonjou Chiang, A0099317
 Set 1A
 
 Completed:
+Assign1
 - index
 - 12signs
 - contactForm
@@ -21,13 +22,20 @@ Completed:
 - Banner image
 - Button images
 - Animal images
-- HTML 5 Validated
-- HTML 5 element tags added
+- HTML 5 Valid
+
+Assign2
+- Changes elements to HTML5 standard
+- Added mobile site
+- Portrait and Landscape
 
 Not Completed:
 - nothing
 
 Challenges:
+assign1
 - Organize images in circle
 - Banner image
 
+assign2
+- None
